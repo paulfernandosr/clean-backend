@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "20212115-28b3-4674-a3bd-74e9c7efbd64",
+		"name": "Devsu Technical Assesment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26407986"
+	},
+	"item": [
+		{
+			"name": "CustomerRestController.getAllCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{customerServiceBaseURL}}/customers",
+					"host": [
+						"{{customerServiceBaseURL}}"
+					],
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountRestController.getAllAccounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{accountServiceBaseURL}}/accounts",
+					"host": [
+						"{{accountServiceBaseURL}}"
+					],
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "customerServiceBaseURL",
+			"value": ""
+		},
+		{
+			"key": "accountServiceBaseURL",
+			"value": ""
+		}
+	]
+}
